@@ -1,6 +1,6 @@
 let idade = 1;
 
-while(idade < 18) {
+do {
     console.log('PASSOU!', idade);
     idade++;
-}
+} while (idade < 18);
