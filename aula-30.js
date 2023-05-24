@@ -1,3 +1,5 @@
+// ARRAY .REDUCE
+
 const lista = [
     {
         nome: 'Ícaro',
@@ -47,7 +49,7 @@ const lista = [
 //     }
 // }
 
-const funcaoReduce = (acc, objeto) => {
+const funcaoReduce = (acc, objeto) => { //acc = acumulador
     return {
         ...acc,
         [objeto.nome]: {
